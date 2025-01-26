@@ -1,0 +1,17 @@
+.solution {
+    padding-top: 129px;
+    padding-left: 30px;
+
+    &__info{
+        font-weight: bold;
+        font-size: 38px;
+        text-align: center;
+        color: white;
+        padding-bottom: 159px;
+    }
+
+    &__anchor-link{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,58 @@
+.footer{
+
+    &__background{
+        background-color: #F5F5FA;
+    }
+
+    &__list{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        border-top: 2px solid #E6E6F0;
+        text-decoration: none;
+    }
+
+    &__link{
+        display: block;
+        margin: 10px 0;
+        text-decoration: none;
+        text-align: center;
+
+        &--geo{
+            font-size: 16px;
+            color: #323264;
+        }
+
+        &--map{
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #24A3FF;
+        }
+
+        &--facebook{
+            margin-top: 11px;
+        }
+
+        &--phone{
+            font-size: 16px;
+            font-weight: bold;
+            color: #46466E;
+        }
+
+        &--email{
+            font-size: 16px;
+            font-weight: bold;
+            color: #24A3FF;
+        }
+    }
+
+    &__info{
+        text-align: center;
+        font-size: 16px;
+        color: #B3B3BA;
+        margin-top: 20px;
+    }
+}

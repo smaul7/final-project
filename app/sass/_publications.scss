@@ -1,0 +1,90 @@
+.publications{
+
+    &__title{
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #24A3FF;
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &__subtitle{
+        font-size: 30px;
+        font-weight: bold;
+        color: #F0145A;
+        padding: 0 15px;
+        padding-bottom: 15px;
+    }
+
+    &__flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item{
+        padding: 15px 15px;
+        max-width: 420px;
+        margin: auto;
+    }
+
+    &__item-background{
+        background-color: white;
+        padding: 0 30px;
+        border-radius: 0 0 12px 12px;
+    }
+
+    &__background{
+        background-color: #F5F5FA;
+    }
+
+    &__item-link{
+        color: #24A3FF;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    &__item-date{
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #B3B3BA;
+        padding-bottom: 15px;
+        border-bottom: 4px solid #E6E6F0;
+    }
+
+    &__item-info{
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    &__item-img{
+        height: 200px;
+        min-width: 315px;
+        border-radius: 12px 12px 0 0;
+
+        &--1{
+            background: url('../img/publications1.png') no-repeat center top;
+        }
+
+        &--2{
+            background: url('../img/publications2.png') no-repeat center top;
+        }
+
+        &--3{
+            background: url('../img/publications3.png') no-repeat center top;
+        }
+    }
+}

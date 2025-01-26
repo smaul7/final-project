@@ -1,0 +1,63 @@
+.slider{
+
+    &__item{
+        padding: 0 15px;
+        margin: 0 auto;
+        margin-top: 50px;
+        max-width: 528px;
+
+    }
+
+    &__item-background{
+        background-color: #F5F5FA;
+        padding: 0 30px;
+        padding-bottom: 30px;
+        border-radius: 0 0 12px 12px;
+        min-width: 315px;
+    }
+
+    &__item-title{
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #24A3FF;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        display: block;
+    }
+
+    &__item-info{
+        font-size: 30px;
+        font-weight: bold;
+        color: #F0145A;
+    }
+
+    &__item-person{
+        font-size: 16px;
+        font-weight: bold;
+        color: #B3B3BA;
+        padding-top: 30px;
+        padding-bottom: 6px;
+    }
+
+    &__item-person-job{
+        font-size: 14px;
+        line-height: 22px;
+        color: #B3B3BA;
+    }
+
+    &__paginator{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    &__item-img{
+        background: url('../img/oleksandr.jpg') no-repeat center top;
+        height: 500px;
+        min-width: 315px;
+        border-radius: 12px 12px 0 0;
+    }
+}

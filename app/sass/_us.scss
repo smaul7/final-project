@@ -1,0 +1,44 @@
+.us{
+
+    &__title{
+        color: #323264;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    &__grid-item{
+        height: 120px;
+        min-width: 375px;
+
+        &--blue{
+            background-color: #1C4280;
+        }
+
+        &--black{
+            background-color: #143646;
+        }
+
+        &--orange{
+            background-color: #F48B30;
+        }
+
+        &--purple{
+            background-color: #9E4DC3;
+        }
+
+        &--gray{
+            background-color: #E2E2E4;
+        }
+    }
+
+    &__grid-item-img{
+        margin: auto;
+        padding: 36px;
+        display: block;
+    }
+}
